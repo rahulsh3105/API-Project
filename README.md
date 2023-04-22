@@ -24,3 +24,4 @@ Development:
 
 Credits:
 - This application was developed by Rahul Sharma. It makes use of the OpenWeatherMap and GeoLocation API, which can be found at https://openweathermap.org/api.
+
