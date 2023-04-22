@@ -1,7 +1,7 @@
 const api = {
-    weatherKey: "62ed8bbf29d91fecfea32ed262de2cee",
+    weatherKey: "2fa73590fd8b5a4c6e68098ad5625395",
     base: "https://api.openweathermap.org/data/2.5/",
-    mapKey: "AIzaSyCWgpUDB2bSTHkzuxdX8RpdchBpXneQfWM"
+    mapKey: "Geolocation API"
 };
 function getLocation() {
     if (navigator.geolocation) {
