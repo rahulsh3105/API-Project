@@ -11,7 +11,6 @@ Technologies Used:
 - GeoLocation API
 
 Features:
-- User input for city or zip code
 - Display of current weather conditions
 - Map display of the specified location
 - Styling with custom CSS
