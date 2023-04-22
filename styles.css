@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+#fetch-data-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#fetch-data-btn:hover {
+  background-color: #3e8e41;
+}
+
+#map {
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+#weather-data {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: lightgray;
+  color: #000;
+}
+
+#weather-data h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#weather-data p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}

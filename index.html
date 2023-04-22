@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather API App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAkFBMVEX///8hWX/+zWfL1d4PU3v+y1/+zGL+ylz+4qsdV37//PX//vz//Pf+yVf/+OsAT3n/9eL/7Mr+z27Dz9gAS3b+25f+0nr+0XQARXL/57v+5bT+7tD+1YH+yFH+1of/8tr+3p/t8fSYrL04Z4mwv8yIoLRegZzf5epTdpQsYYV4lKrV3eT+2Y9siaKnt8VGcJDJQVEjAAAEBElEQVRoge2YwWKiMBBAMZKAUCCgSKlVpCqUSvX//24naF1EgRBgu4e8U6uW15lMZhIVRSKRSCSS/w3j5dfU1Avs33Lrmqb/mhtj6R6ZMLyv6we38eaOpF6trW2z27fWq3HcroW0u7iqdR5qyBrJrSwJQuUNHb6/h6VfKUIkH0mtGBiRZe27ZgD/mjGWW3Exqq/sLbw5Vsavz19HxU8GdXUf0F16Kf7VGo3b5V7eNZ+llepLomFMCMYaWeoUXrJ9a2OO6VYoKy6aY4xKYOIze0hHVRfoGkEVyL8ZKnaAq2aGthyvxH+g5CHoa+je2CmnqEYN8pEPEsayVg0l9z542u3S8PKfrvVtzbel/3KIJGw1z19dN67bqAb5pe8oput71gCVvyaIWMR3WT7rF/u65KzbG26OLfgjr7879CyIllgbCFtrVkPgK8Vcsu2PLW+IY8TLahtYWAsvM7Ql8Jy1HmwF22ioo7sRbT1bsddtagjcUCiIhy14w+RIOWIHG3OMy8q2NeWoYbz3wmxf7vEOTaHXnnSyHGqGx+l0DqTx5deXN9TSXBAKBnGnH8lu4jBmu+TjWLxG87bQh3DPE9WZzSYXZqrjfO6L10NrbPfxvLiJf/yLbM7eihrlZNNX/fVaEV/srwlbeNqUduL3M6dn54mZoWZTFnnTDA9bH9/EMVNr1BD6jK16wyi1KMwx4dGdNqhZ1bFF12vT7rFLgpeL6eNdkxrkTgobva7FsZaaw61NI3nYva0ndWt9k+/gU1HNSNNsxdTR+mfgd2O/aFFPJosDfC5/Gvj1hkB1OG/goKM6Vp9trmrWocfRZ7uceD9z26S63/W4/tGWcYb6DZ/cPAm81xU45jAz+fHpPtPeeqh5VpvhwIobD3FXvgjqStK+2oyi1KvVthY+scRxzJ1yaDCQ9Lf7KzgWOxLHpySDbjn5/GpuK6WkQ2ddlXobwb5dHCe7mg8TR72Gw6meqF/sMnwTI5/dhWjQdY7MM55tVU36GaIMCMaYIG8TFs17BT9329KnBV95VdwZ/KlpR1FEb0Oj+PKtS9b3QuqLu0qk3V2C20j59nODu3z5gcmq8Vf7p1DU1w1eUE6yCX2W8N7E5q9iaoj7O0kO+7jyPArNjTfwb+5N9YCqqs4iO1UeCE2e88ASC6723/Bfk8ojudvLVDTlf3E+OV1VTgJd5UF+EHNzHRTamB1/zy0Y+DBxn4Xc8751XpBVdzkXcf86Zwi5hVvqEG7Oo2Ejs52YW8n6B65WWxsvA1TbYi/oVg69W7rYFiv46icv7mbCfKjigxTU8x5qRTkmDsfl86l5sZv2UgPT7x07C3Rlcj4Jbq874nTanXQAsUQikUgkEolEIpFIJBKJRJA/omFC81UzaIcAAAAASUVORK5CYII=">
+  </head>
+  <body>
+    <body>
+      <!-- HTML code for "Fetch Data" button and map container -->
+      <h1>Weather API</h1>
+      <button id="fetch-data-btn">Fetch Data</button>
+      <br><br>
+      <div id="map" style="height: 400px; width: auto;"></div>
+
+      <div id="weather-data" style="display: none;">
+        <h1>Weather Data</h1>
+        <p id="location"></p>
+        <p id="lat"></p>
+        <p id="lon"></p>
+        <p id="timezone"></p>
+        <p id="wind-speed"></p>
+        <p id="pressure"></p>
+        <p id="humidity"></p>
+        <p id="wind-direction"></p>
+        <p id="uv-index"></p>
+        <p id="feels-like"></p>
+      </div>
+      <script src="script.js"></script>
+    </body>
+  </body>
+</html>
